@@ -64,6 +64,7 @@ function guessTheNumber(difficulty) {
       alert(
         `Congratulations! You guessed the number in ${attempts} Attempts. \n If you Want Play More, Refresh and Play the Game.`
       );
+
       break;
     } else if (guess < randomNumber) {
       alert("Too Low, Try Again!");
