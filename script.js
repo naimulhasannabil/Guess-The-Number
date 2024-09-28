@@ -27,21 +27,21 @@ function guessTheNumber(difficulty) {
       range = 10;
       maxAttempts = 5;
       randomNumber = Math.floor(Math.random() * 10) + 1; // Random Number Between 1 - 10.
-      console.log(randomNumber);
+    //   console.log(randomNumber);
       break;
 
     case "medium":
       range = 100;
       maxAttempts = 7;
       randomNumber = Math.floor(Math.random() * 100) + 1; // Random Number Between 1 - 100.
-      console.log(randomNumber);
+    //   console.log(randomNumber);
       break;
 
     case "hard":
       range = 1000;
       maxAttempts = 10;
       randomNumber = Math.floor(Math.random() * 1000) + 1; // Random Number Between 1 - 1000.
-      console.log(randomNumber);
+    //   console.log(randomNumber);
       break;
 
     default:
